@@ -1,0 +1,302 @@
+ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.Home{
+    background-color: #f4f4f4;
+}
+.Header header{
+    position: relative;
+    height: 44px;
+    background-color: #31c27c;
+}
+.Header header .music{
+    float: left;
+    display: block;
+    width: 90px;
+    height: 25px;
+    margin: 9px 0 0 10px;
+    color: white;
+}
+.Header header .btn-download{
+    position: absolute;
+    display: inline-block;
+    right: 10px;
+    top: 8px;
+    height: 28px;
+    padding: 0 12px;
+    line-height: 28px;
+    border-radius: 99px;
+    font-size: 14px;
+    background: #149c5a;
+    color: #fff;
+}
+
+.Nav nav{
+    display: -webkit-box;
+    background-color: #fff;
+}
+.Nav nav li{
+    position: relative;
+    display: block;
+    width: 33.3%;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 16px;
+}
+.Nav nav li a{
+    color: rgba(0,0,0,.6);
+
+}
+.Nav nav a.current{
+    color: #31c27c;
+}
+.Content .swiper-container img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.Content .video{
+    margin-top: 14px;
+}
+.Content .video h2{
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 11px;
+    font-weight: normal;
+}
+.Content .video ul{
+    box-sizing: border-box;
+    overflow: hidden;
+    padding-left: 5px;
+    margin-right: -8px;
+}
+.Content .video ul li{
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    padding-right: 8px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.Content .video ul li a{
+    display: block;
+    background-color: #fff;
+}
+.Content .video ul li a .list-media{
+    position: relative;
+    margin-bottom: 5px;
+}
+.Content .video ul li a img{
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+
+    display: block;
+    width: 100%;
+    z-index: 1;
+}
+.Content .video ul li a h3{
+    color: #000;
+    font-size: 14px;
+    height: 30px;
+    line-height: 18px;
+    white-space: normal;
+    word-wrap: break-word;
+}
+.Footer .list-more{
+    margin: 0;
+    height: 40px;
+    line-height:40px;
+    text-align:center
+}
+.Footer .list-more a{
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 14px;
+    color: rgba(0,0,0,.6);
+}
+.Footer footer{
+    display: block;
+    padding: 15px 0;
+}
+.Footer footer div{
+    text-align: center;
+    margin-bottom: 16px;
+}
+.Footer footer div a{
+    position: relative;
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 14px;
+    height: 14px;
+    line-height: 14px;
+    color: #000;
+}
+
+/*排行榜*/
+.List{
+    box-sizing: border-box;
+    margin: 10px;
+    background-color: #f4f4f4;
+}
+.List ul li{
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.List ul li>div{
+    background-color: #fff;
+    display: -webkit-box;
+}
+.List ul li .topic_media{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+.List ul li .topic_media img{
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+.List ul li .topic_info{
+    position: relative;
+}
+.List ul li .topic_info .topic_cont{
+    margin: 0 10px 0 15px;
+}
+.List ul li .topic_info h3{
+    font-size: 16px;
+    color: #000;
+    font-weight: normal;
+    margin:0 0 5px 0;
+}
+.List ul li .topic_info p{
+    display: block;
+    margin: 2px 0;
+    padding:1px 0;
+    font-size: 14px;
+    color: rgba(0,0,0,.5);
+    overflow: hidden;
+    white-space: normal;
+    text-overflow: ellipsis;
+}
+.List ul li .topic_info p .text_name{
+    color: #000;
+    margin-left: 8px;
+    margin-right: 5px;
+}
+.topic_arrow{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -4px;
+    width: 6px;
+    height: 6px;
+    border-right: 1px solid #b2b2b2;
+    border-bottom: 1px solid #b2b2b2;
+}
+/*搜索*/
+.SearchInput .search_box{
+    background-color: #f4f4f4;
+    padding: 10px;
+    display: -webkit-box;
+}
+.SearchInput .search_box .search_input{
+    position: relative;
+    border-right: 3px;
+    background-color: #fff;
+    height: 20px;
+    padding: 8px 12px 8px 35px;
+    -webkit-box-flex: 1;
+}
+.SearchInput .search_box .search_input input{
+    height: 20px;
+    line-height: 20px;
+    width: 100%;
+    color: rgba(0,0,0,.3);
+    border: none;
+    font-size: 14px;
+    outline: none;
+}
+.SearchInput .search_box .search_input span{
+    display: block;
+    padding: 0 10px;
+    font-size: 14px;
+    height: 36px;
+    line-height: 36px;
+}
+.SearchInput .search_box .search_input .search_icon{
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    width: 18px;
+    height: 18px;
+    color: rgba(0,0,0,.3);
+}
+.SearchInput .search_result{
+    display: block;
+    background-color: #fff;
+    padding: 15px 15px 10px 15px;
+}
+.SearchInput .search_result a{
+    display: inline-block;
+    font-size: 14px;
+    padding: 0 10px;
+    height: 30px;
+    line-height: 30px;
+    color: #000;
+    border: 1px solid rgba(0,0,0,.6);
+    border-radius: 99px;
+    word-break: keep-all;
+    margin-bottom: 10px;
+    margin-right: 14px;
+}
+/*topDetail*/
+.topDetail ul{
+    overflow: hidden;
+}
+.topDetail ul li{
+    display: flex;
+}
+.topDetail ul li .number:nth-child(2n){
+    color: #ff400b;
+}
+.topDetail ul li .detail{
+    display: block;
+    -webkit-box-flex: 1;
+    /*display: -webkit-box;*/
+    padding: 10px 16px;
+}
+.topDetail ul li .detail-span{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    width: 45px;
+    margin-right: -16px;
+}
+.topDetail ul li .detail .detail-span span{
+    display: block;
+}
+.topDetail ul li .detail h3{
+    font-size: 16px;
+    color: #000;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+.topDetail ul li .detail span{
+    /*display: block;*/
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
